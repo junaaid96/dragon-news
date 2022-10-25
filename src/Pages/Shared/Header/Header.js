@@ -1,10 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div className='d-flex'>
             <h1>Logo</h1>
+            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/news'>News</NavLink>
         </div>
     );
 };
