@@ -7,19 +7,19 @@ import BrandCarousel from '../BrandCarousel/BrandCarousel';
 
 const RightSideNav = () => {
     return (
-        <div className='p-5'>
-            <ButtonGroup vertical>
+        <div>
+            <ButtonGroup vertical className='w-100'>
                 <Button variant="outline-danger"><FcGoogle /> Login with Google</Button>
                 <Button variant="outline-success" className='mt-2'><FaGithub /> Login with Github</Button>
             </ButtonGroup>
             <div className='mt-5'>
                 <p>Find Us On</p>
-                <ButtonGroup vertical>
-                    <Button variant="light" className='px-5 border'><FaFacebook /> Facebook</Button>
-                    <Button variant="light" className='px-5 mt-2 border'><FaTwitter /> Twitter</Button>
-                    <Button variant="light" className='px-5 mt-2 border'><FaTwitch /> Twitch</Button>
-                    <Button variant="light" className='px-5 mt-2 border'><FaInstagram /> Instagram</Button>
-                    <Button variant="light" className='px-5 mt-2 border'><FaReddit /> Reddit</Button>
+                <ButtonGroup vertical className='w-100'>
+                    <Button variant="light" className='border'><FaFacebook /> Facebook</Button>
+                    <Button variant="light" className='mt-2 border'><FaTwitter /> Twitter</Button>
+                    <Button variant="light" className='mt-2 border'><FaTwitch /> Twitch</Button>
+                    <Button variant="light" className='mt-2 border'><FaInstagram /> Instagram</Button>
+                    <Button variant="light" className='mt-2 border'><FaReddit /> Reddit</Button>
                 </ButtonGroup>
             </div>
             <BrandCarousel></BrandCarousel>

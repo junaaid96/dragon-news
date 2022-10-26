@@ -7,7 +7,7 @@ const BrandCarousel = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="news1.jpg"
+                    src="Assets\Brand\brand1.jpg"
                     alt="First slide"
                     height={200}
                 />
@@ -15,7 +15,7 @@ const BrandCarousel = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="news2.jpg"
+                    src="Assets\Brand\brand2.jpg"
                     alt="Second slide"
                     height={200}
                 />
@@ -23,7 +23,7 @@ const BrandCarousel = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="news3.jpg"
+                    src="Assets\Brand\brand3.jpg"
                     alt="Third slide"
                     height={200}
                 />

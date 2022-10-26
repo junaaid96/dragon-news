@@ -12,7 +12,7 @@ const LeftSideNav = () => {
     }, []);
 
     return (
-        <div className='p-5'>
+        <div>
             {
                 categories.map(category => <Link className='d-block' to={`category/${category.id}`}>{category.name}</Link>)
             }
