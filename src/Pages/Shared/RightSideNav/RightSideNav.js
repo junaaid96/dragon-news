@@ -12,7 +12,7 @@ const RightSideNav = () => {
                 <Button variant="outline-danger"><FcGoogle /> Login with Google</Button>
                 <Button variant="outline-success" className='mt-2'><FaGithub /> Login with Github</Button>
             </ButtonGroup>
-            <div className='mt-5'>
+            <div className='mt-4'>
                 <p>Find Us On</p>
                 <ButtonGroup vertical className='w-100'>
                     <Button variant="light" className='border'><FaFacebook /> Facebook</Button>

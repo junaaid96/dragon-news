@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const BrandCarousel = () => {
     return (
-        <Carousel fade className='mt-5'>
+        <Carousel fade className='mt-4'>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
