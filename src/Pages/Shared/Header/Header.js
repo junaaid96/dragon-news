@@ -9,7 +9,7 @@ function Header() {
     return (
         <Navbar bg="light" expand="lg" className='mb-4'>
             <Container>
-                <Navbar.Brand>Dragon-News</Navbar.Brand>
+                <Navbar.Brand>Dragon News</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto me-2">
