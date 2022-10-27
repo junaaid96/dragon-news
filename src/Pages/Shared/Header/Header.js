@@ -14,6 +14,7 @@ function Header() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto me-2">
                         <NavLink className='text-decoration-none mx-2 text-dark fw-bold' to='/'>All News</NavLink>
+                        <p>Name</p>
                     </Nav>
                     <div className='d-lg-none'>
                         <LeftSideNav></LeftSideNav>
